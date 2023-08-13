@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+}
+
+.grid-container{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.btn{
+    font-size: 35px;
+    background-color: gold;
+    border-radius: 10px;
+}
+
+.operator{
+    background-color: darkslategrey;
+}
+.ans{
+    background-color: coral;
+    grid-area:4/4/span 2/span 1;
+
+}
+
+#screen{
+    width: 600px;
+    height: 100px;
+    font-size: 80px;
+    border:1px solid black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: end;
+    
+}
