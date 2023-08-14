@@ -1,5 +1,7 @@
 body{
     background-color: aqua;
+    display: flex;
+    justify-content: center;
 }
 
 .grid-container{
@@ -17,7 +19,7 @@ body{
 }
 
 .operator{
-    background-color: red;
+    background-color:#51665b;
 }
 .ans{
     background-color: coral;
