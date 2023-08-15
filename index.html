@@ -8,17 +8,19 @@
     <script src="script.js"></script>
   </head>
   <body>
+    
+    
+    <select id="theme">
+      <option>Light</option>
+      <option>Dark</option>
+    </select>
     <div class="calc">
-      <select>
-        <option>Light</option>
-        <option>Dark</option>
-      </select>
-    <h1 id="screen">00</h1>
+    <h1 id="screen">0</h1>
     <div class="grid-container">
       <button type="button" class="btn" value="clear">AC</button>
       <button type="button" class="btn operator" value="*">*</button>
       <button type="button" class="btn operator" value="/">/</button>
-      <button type="button" class="btn" value="cut"><-X</button>
+      <button type="button" class="btn" value="cut"><img id="backspace" src="./svg/backspace.svg"></button>
 
       <button type="button" class="btn" value="7">7</button>
       <button type="button" class="btn" value="8">8</button>

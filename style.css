@@ -1,21 +1,35 @@
 body{
     background-color: aqua;
-    display: flex;
-    justify-content: center;
 }
-
+#theme{
+    font-size: larger;
+    border-radius: 5px;
+    background-color:honeydew;
+}
+#backspace{
+    width: 55px;
+}
 .grid-container{
     display: grid;
     width: 600px;
     height: 600px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
+}
+.calc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn{
     font-size: 35px;
     background-color: gold;
     border-radius: 10px;
+}
+.btn:hover{
+    background-color:floralwhite;
 }
 
 .operator{
