@@ -12,13 +12,13 @@ body{
 .grid-container{
     display: grid;
     width: 600px;
-    height: 600px;
+    height: 800px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    grid-template-rows: repeat(6,1fr);
+    
 }
 .calc{
     display:flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -37,13 +37,13 @@ body{
 }
 .ans{
     background-color: coral;
-    grid-area:4/4/span 2/span 1;
+    grid-column: 4;
+    grid-row: 5/span 2;
 
 }
 
 #screen{
-    width: 600px;
-    height: 100px;
+    grid-column: 1/span 4;
     font-size: 80px;
     border:1px solid black;
     background-color: aliceblue;
